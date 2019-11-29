@@ -1,4 +1,4 @@
-public class Pessoa extends Thread{
+public class Pessoa {
     private int id;
 
     public Pessoa(int id) {
