@@ -21,7 +21,6 @@ public class Cliente extends Pessoa implements Runnable{
                 }
             }
             //Cliente deve ficar em loop chamando cortaCabelo(). Dê um intervalo entre 3 e 5 seg a cada loop.
-            //Precisa desse LOOP?
             try {
                 Thread.sleep(ThreadLocalRandom.current().nextInt(3000, 5000));
             } catch (InterruptedException e) {
